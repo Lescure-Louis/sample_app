@@ -8,6 +8,7 @@ class SessionsHelperTest < ActionView::TestCase
     remember(@user)
   end
 
+
   test "current_user returns right user when session is nil" do
     assert_equal @user, current_user
     assert is_logged_in?
@@ -27,3 +28,5 @@ end
 # Define a user variable using the fixtures.
 # Call the remember method to remember the given user.
 # Verify that current_user is equal to the given user
+
+
