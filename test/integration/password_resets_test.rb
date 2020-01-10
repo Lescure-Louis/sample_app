@@ -61,5 +61,3 @@ class PasswordResetsTest < ActionDispatch::IntegrationTest
   end
 end
 
-
-
