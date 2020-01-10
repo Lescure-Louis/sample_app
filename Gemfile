@@ -11,7 +11,7 @@ gem 'bootstrap-sass', '3.4.1'
 
 
 gem 'carrierwave',             '1.2.2'
-gem 'mini_magick',             '4.7.0'
+gem 'mini_magick',             '4.9.4'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
